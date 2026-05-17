@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AykaSO",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enerya Service Operations yardımcı eklentisi",
   "icons": {
     "16": "public/icons/icon16.png",
@@ -23,7 +23,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/loader.jsx-loader-9N4ECnZH.js"
+        "assets/loader.jsx-loader-CA99WWuN.js"
       ],
       "matches": [
         "https://so.enerya.com.tr/*"
@@ -42,7 +42,7 @@
       "resources": [
         "assets/*",
         "assets/client-BefydQUw.js",
-        "assets/loader.jsx-CtH-m4Yz.js"
+        "assets/loader.jsx-BsWDTvgr.js"
       ],
       "use_dynamic_url": false
     }
