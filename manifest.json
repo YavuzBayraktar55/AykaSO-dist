@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "AykaSO",
+  "version": "1.0.2",
+  "description": "Enerya Service Operations yardımcı eklentisi",
+  "icons": {
+    "16": "public/icons/icon16.png",
+    "48": "public/icons/icon48.png",
+    "128": "public/icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "public/icons/icon16.png",
+      "48": "public/icons/icon48.png",
+      "128": "public/icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/loader.jsx-loader-D75rQU-Y.js"
+      ],
+      "matches": [
+        "https://so.enerya.com.tr/*"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "assets/loader-DOhUZpI6.css"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://so.enerya.com.tr/*"
+      ],
+      "resources": [
+        "assets/*",
+        "assets/client-tlloev9Z.js",
+        "assets/loader.jsx-BmGubFOI.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://so.enerya.com.tr/*"
+  ]
+}
