@@ -1,0 +1,4 @@
+﻿# Tüm JS ve CSS dosyaları binary muamelesi gör — CRLF dönüşümü yapma
+*.js   binary
+*.css  binary
+*.json text eol=lf
