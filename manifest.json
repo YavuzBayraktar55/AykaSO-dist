@@ -23,7 +23,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/loader.jsx-VRjNA34X.js"
+        "assets/loader.jsx-loader-9N4ECnZH.js"
       ],
       "matches": [
         "https://so.enerya.com.tr/*"
@@ -41,7 +41,8 @@
       ],
       "resources": [
         "assets/*",
-        "assets/loader.jsx-VRjNA34X.js"
+        "assets/client-BefydQUw.js",
+        "assets/loader.jsx-CtH-m4Yz.js"
       ],
       "use_dynamic_url": false
     }
