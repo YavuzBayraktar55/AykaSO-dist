@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AykaSO",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Enerya Service Operations yardımcı eklentisi",
   "icons": {
     "16": "public/icons/icon16.png",
